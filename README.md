@@ -1,23 +1,8 @@
-# EduAi
-# AI-Driven Educational Tools
 
-## Project Overview
+# EduAi Automated Notes-Making Support System
 
-This project aims to enhance the learning experience through innovative AI-driven educational tools. By utilizing artificial intelligence, we provide adaptive assessments, intelligent tutoring systems, behavior tracking, and accessibility features. Our tools are designed to support diverse learners and promote effective teaching strategies.
+EduAi is a Flask-based web application designed to assist students in capturing and organizing information during fast-paced lectures. Using advanced technologies such as Automatic Speech Recognition (ASR), Generative AI, and Retrieval-Augmented Generation (RAG), the app transcribes lecture audio, identifies key concepts, and generates structured notes. It is particularly useful for students in multilingual environments and helps improve retention and revision efficiency.
 
-## Features
+## Overview
 
-### 1. Adaptive Assessments and Feedback
-Instead of relying on standardized tests, our system creates adaptive assessments that adjust in real-time based on a student's performance. This approach helps accurately gauge understanding and provides instant, tailored feedback to address specific areas for improvement.
-
-### 2. Intelligent Tutoring Systems
-Our AI-powered tutoring systems, including chatbots and virtual assistants, offer students 24/7 assistance. These systems can provide explanations, answer questions, and guide students through problems, allowing for individualized support outside the classroom.
-
-### 3. Behavior and Progress Tracking
-The project incorporates behavior and progress tracking capabilities, analyzing student behavior over time. This feature identifies patterns that indicate learning challenges or disengagement, enabling teachers to intervene early and provide targeted support to keep students on track.
-
-### 4. Language and Accessibility Tools
-AI-driven tools enhance accessibility for non-native speakers and students with disabilities. Features such as real-time translation and text-to-speech ensure that every student can engage with the material, regardless of language proficiency or ability.
-
-## Contributing
-We welcome contributions to this project! To contribute, please fork the repository and submit a pull request. Ensure that your code adheres to the project's coding standards and includes appropriate tests.
+Over 60% of students struggle to capture and organize information during fast-paced lectures, leading to poor retention and revision. Additionally, 25% of students come from multilingual backgrounds, making it harder for them to engage and understand the content fully. EduSpot AI Notes Maker addresses this by automatically detecting key terms during lectures, transcribing audio in real time, and generating structured notes to improve understanding and retention.
