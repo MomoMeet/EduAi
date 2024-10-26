@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Main Page</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="navbar-brand">My Website</div>
+  </nav>
+
+  <div class="container">
+    <h1>Main Page</h1>
+    <p>Welcome! Choose one of the options below to get started.</p>
+
+    <div class="button-container">
+      <a href="{{ url_for('chatbot') }}" class="button">Chatbot</a>
+      <a href="{{ url_for('text_to_speech') }}" class="button">Text to Speech</a>
+      <a href="{{ url_for('speech_to_text') }}" class="button">Speech to Text</a>
+      <a href="{{ url_for('translate') }}" class="button">Translate</a>
+    </div>
+  </div>
+</body>
+</html>
